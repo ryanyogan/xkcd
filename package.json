@@ -4,6 +4,7 @@
   "description": "A little React application solving world hunger",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ryan Yogan <ryanyogan@gmail.com>",
