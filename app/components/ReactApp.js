@@ -4,8 +4,6 @@
 
 var React = require('react/addons');
 
-// The alternative in ES6 is so awesome but I didn't
-// want to complicate things with --harmony (0.11.x)
 var ReactApp = React.createClass({
   componentDidMount: function() {
     console.log("Looks to be working...");

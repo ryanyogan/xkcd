@@ -5,7 +5,7 @@ var ReactApp = React.createFactory(require('../components/ReactApp').ReactApp);
 // to isomorphicly render React, this is the path of least
 // resistance.  We are just rendering all of our components
 // to a string and than we are going to say, hey if you hit /
-// go a head and render the index.ejx file with all the JS server-
+// go a head and render the index.ejs file with all the JS server-
 // side compiled
 module.exports = function(app) {
   app.get('/', function(req, res) {

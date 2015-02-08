@@ -3,7 +3,7 @@ var browserify = require('gulp-browserify');
 
 // We need to compile all of our source down into on nice file
 // we are using brwoserify, however reactify is going to take care
-// of our JSX transpiling (is that a word?)
+// of our JSX transpiling
 gulp.task('scripts', function() {
   gulp.src(['app/main.js'])
     .pipe(browserify({
